@@ -1,0 +1,173 @@
+<style>
+ 
+html 
+    {font-size: 100%;
+     width: 100%;
+    }
+
+body 
+    {display: grid;
+     grid-template-columns: repeat(2,1fr);
+     grid-template-rows: repeat(4,auto);
+     grid-gap: 30px;
+     margin:40px;
+    }
+        
+header 
+    {grid-column: 1/3;
+     grid-row: 1/2;
+     text-align: center;
+    }    
+        
+#menu 
+    {grid-column: 1/3;
+     grid-row: 2/3;
+     background:linear-gradient(100deg, #F3DBCF, #E5C1CD, #C9BBC8);
+    }  
+    
+#moi 
+    {grid-column: 1/2;
+     grid-row: 3/4;
+     padding-right: 30px;
+     padding-left: 30px;
+     margin-right: 30px;
+    }  
+    
+#school 
+    {grid-column: 2/3;
+     grid-row: 3/4;
+     page-break-after: left;
+     padding-right: 30px;
+     padding-left: 30px;
+     margin-left: 30px;
+    }  
+            
+#footer 
+    {grid-column: 1/3;
+     grid-row: 4/5;
+     background:linear-gradient(100deg, #F3DBCF, #E5C1CD, #C9BBC8);
+    }
+
+.vertical-line 
+    {border-left: 2px solid #000;
+     display: inline-block;
+     height: 30px;
+    }
+
+ul 
+    {font-size: 1.1rem;
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+    }
+
+p  
+    {font-size: 1.1rem;
+    font-family: 'Nunito', sans-serif;
+    }
+
+h1 
+    {font-size: 4rem;
+     font-family:'Caveat Brush', cursive;
+     color: lightpink;
+    }
+
+h2 
+    {font-size: 3rem;
+    font-family:'Cabin Sketch', cursive;
+    font-weight: normal;
+    color:#c7c3e3;
+    border: solid;
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+    }
+   
+h3 
+    {font-size: 1.5rem;
+    font-family:'Yusei Magic', sans-serif;
+    }
+
+h4 
+    {font-size: 1.2rem;
+    font-family: 'Nunito', sans-serif;
+    font-style: italic;
+    }
+
+#portfolio 
+    {width: 900px;
+     text-align: center;
+    }
+
+.menu 
+    {display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     margin-right: 2rem;
+     justify-content: space-around;
+     font-family:'Nunito', sans-serif;
+     font-size: 1.3rem;}
+
+.rs {display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     text-indent: 20px;
+     font-family: cursive;
+     font-size: 1.3rem;
+     padding-left: 70px;
+     margin: 0rem;
+    }
+     
+a  
+    {text-decoration:none;
+     color: black;
+    }
+
+.style 
+    {color: #000000;
+     font-family:serif;
+    }
+
+.center 
+    {text-align: center;
+    }
+
+.contact 
+    {display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-around;
+    }
+
+.espace 
+    {padding:0px;
+    }
+
+.puces 
+    {list-style-type: disc;
+    }
+
+.width 
+    {width: 100px;
+    }
+
+.taille 
+    {width: 30px;
+    }
+
+.photo 
+    {width: 150px;
+    }
+
+.petit 
+    {width: 21px;
+    }
+
+.texte 
+    {text-align: justify;
+    }
+
+#mapp 
+    {width="250px"; 
+     height="100px";
+    }
+
+</style>        
